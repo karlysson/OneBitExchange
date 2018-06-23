@@ -1,24 +1,27 @@
-# README
+##### Tecnologias ######
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#Backend
+Ruby 
+Ruby on Rails 5.2
+Docker 
+Docker - composer
+Git
+Github 
 
-Things you may want to cover:
+#Front end
+Nodejs
+Yarn
+Coffescript
 
-* Ruby version
+#Teste
+Rspec
 
-* System dependencies
 
-* Configuration
+# DB
+PostgreSql
+Mysql
+Sqlite
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Deploy 
+Codeship
+Heroku
