@@ -1,6 +1,6 @@
 # Technology
 
-Backend
+**Backend**
 
 *Ruby 
 *Ruby on Rails 5.2
@@ -8,23 +8,23 @@ Backend
 *Github 
 
 
-Front end
+**Front end**
 
 *Nodejs
 *Yarn
 *Coffescript
 
-Teste
+**Teste**
 
 *Rspec
 
 
-DB
+**DB**
 
 *PostgreSql
 
 
-Deploy 
+**Deploy** 
 
 *Codeship
 *Heroku
