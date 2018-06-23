@@ -1,27 +1,30 @@
-##### Tecnologias ######
+# Technology
 
-#Backend
-Ruby 
-Ruby on Rails 5.2
-Docker 
-Docker - composer
-Git
-Github 
+Backend
 
-#Front end
-Nodejs
-Yarn
-Coffescript
-
-#Teste
-Rspec
+*Ruby 
+*Ruby on Rails 5.2
+*Docker 
+*Github 
 
 
-# DB
-PostgreSql
-Mysql
-Sqlite
+Front end
 
-# Deploy 
-Codeship
-Heroku
+*Nodejs
+*Yarn
+*Coffescript
+
+Teste
+
+*Rspec
+
+
+DB
+
+*PostgreSql
+
+
+Deploy 
+
+*Codeship
+*Heroku
