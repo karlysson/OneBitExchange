@@ -2,29 +2,29 @@
 
 **Backend**
 
-*Ruby 
-*Ruby on Rails 5.2
-*Docker 
-*Github 
+* Ruby 
+* Ruby on Rails 5.2
+* Docker 
+* Github 
 
 
 **Front end**
 
-*Nodejs
-*Yarn
-*Coffescript
+* Nodejs
+* Yarn
+* Coffescript
 
 **Teste**
 
-*Rspec
+* Rspec
 
 
 **DB**
 
-*PostgreSql
+* PostgreSql
 
 
 **Deploy** 
 
-*Codeship
-*Heroku
+* Codeship
+* Heroku
