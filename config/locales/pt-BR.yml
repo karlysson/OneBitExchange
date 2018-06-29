@@ -29,11 +29,12 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello world"
-  from_currency: "From: Currency"
-  for_currency: "For: Currency"
-  invert_currency: "Invert Currency"
-  result: "Result"
+"pt-BR":
+  hello: "olá Mundo"
+  from_currency: "DE: Moeda"
+  for_currency: "Para: Moeda"
+  invert_currency: "Inverter Moeda"
+  result: "Resultado"
   one_bit_exchange: "OneBitExchange"
-  simulate_conversion: "Simulate you conversion"
+  simulate_conversion: "Simule sua conversão"
+
