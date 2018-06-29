@@ -4,10 +4,19 @@ $(document).ready ->
     target_currency = $("#target_currency").val();
     $('#source_currency').val(target_currency);
     $('#target_currency').val(source_currency);
+    amount_valid();
     exchange();
 
-  $('#source_currency, #target_currency, #amount').change -> exchange();
+  $('#source_currency, #target_currency, #amount').change -> 
+    if amount_valid() == true
+      exchange();
 
+  amount_valid = -> 
+    if $("#amount").val() < 1
+      alert "O valor a ser convertido deve ser maior que 1."
+      return false;
+    else
+      return true;
 
   exchange = -> 
     if $('form').attr('action') == '/convert'
@@ -24,3 +33,4 @@ $(document).ready ->
         success: (data, text, jqXHR) ->
           $('#result').val(data.value)
       return false;
+
