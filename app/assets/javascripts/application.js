@@ -11,6 +11,8 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery/dist/jquery
+//= require jquery-maskmoney/dist/jquery.maskMoney
 //= require tether/dist/js/tether
 //= require bootstrap/dist/js/bootstrap.bundle
 //= require rails-ujs

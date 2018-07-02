@@ -7,6 +7,13 @@ $(document).ready ->
     amount_valid();
     exchange();
 
+  $('#amount').maskMoney
+    allowNegative: false
+    thousands: ''
+    decimal: '.'
+    affixesStay: false
+
+
   $('#source_currency, #target_currency, #amount').change -> 
     if amount_valid() == true
       exchange();
